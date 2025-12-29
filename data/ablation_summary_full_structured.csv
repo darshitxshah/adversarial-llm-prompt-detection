@@ -1,0 +1,13 @@
+Run,Model,Accuracy,Macro Avg F1,Noise,Template,Label Noise,Embedding
+All Components,LogReg,0.94,0.9397436454171731,True,True,True,sentence-transformer
+All Components,RandForest,0.94,0.9397436454171731,True,True,True,sentence-transformer
+All Components,SVM,0.94,0.9397436454171731,True,True,True,sentence-transformer
+No Noise,LogReg,0.955,0.9550284698799548,False,True,True,sentence-transformer
+No Noise,RandForest,0.955,0.9550284698799548,False,True,True,sentence-transformer
+No Noise,SVM,0.955,0.9550284698799548,False,True,True,sentence-transformer
+No Noise+Template,LogReg,0.955,0.9551751371556038,False,False,True,sentence-transformer
+No Noise+Template,RandForest,0.955,0.9551751371556038,False,False,True,sentence-transformer
+No Noise+Template,SVM,0.955,0.9551751371556038,False,False,True,sentence-transformer
+Only Embedding,LogReg,1.0,1.0,False,False,False,sentence-transformer
+Only Embedding,RandForest,1.0,1.0,False,False,False,sentence-transformer
+Only Embedding,SVM,1.0,1.0,False,False,False,sentence-transformer

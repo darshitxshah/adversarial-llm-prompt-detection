@@ -1,0 +1,4 @@
+,accuracy,macro avg F1,Noise,Template,Label Noise,Embedding
+LogReg,1.0,1.0,False,False,False,sentence-transformer
+RandForest,1.0,1.0,False,False,False,sentence-transformer
+SVM,1.0,1.0,False,False,False,sentence-transformer
